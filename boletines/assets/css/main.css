@@ -1,0 +1,109 @@
+
+  p{
+    /* IDEA: color:blue; */
+  }
+  html{
+    font-family: 'Nunito', sans-serif;
+  }
+  .container{
+    background: #114357;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  a{
+    text-decoration: none;
+    color: #19456b;
+  }
+
+  a:hover{
+    opacity: 0.50;
+  }
+
+  .title{
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .paragraph{
+    line-height: 1.8cm;
+  }
+
+  .content{
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    position: relative;
+    padding: 1.8em;
+  }
+
+  .actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+
+  .close{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: #114357;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .table{
+    width: 100%;
+    border-spacing: 0;
+  }
+
+  .table td, .table th{
+    padding: 1em;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .fa-star{
+    color: #ffc400;
+  }
+
+  .table tr:nth-child(even){
+    /* IDEA: en los numeros se puede usar odd o even */
+    background-color: #e7d9ea;
+  }
+
+  .title-item{
+    /* border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #c6426e; */
+    font-size: 2em;
+    border-bottom: solid 2px #c6426e;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+
+  .position{
+    background-color:#F29492;
+    padding: 10px;
+    border-radius: 4px;
+
+  }
+
+  .main-img{
+    float: left;
+    margin-right: 1em;
+    height: 250px;
+  }
