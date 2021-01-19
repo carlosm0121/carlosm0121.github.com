@@ -44,6 +44,22 @@
     overflow: scroll;
   }
 
+  .content{
+    padding: 1em
+  }
+  td{
+    display: block;
+    width: 100%;
+  }
+  td:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #642B73
+  }
+  th{
+    display: none;
+  }
+
   .actions{
     position: absolute;
     top: 1em;
@@ -119,20 +135,18 @@
       height: 500px;
     }
   }
-  @media (max-width:600px) {
-    .content{
-      padding: 1em
+  @media (min-width:900px) {
+    th{
+      display: table-cell;
     }
     td{
-      display: block;
-      width: 100%;
+      width: auto;
+      display: table-cell;
     }
     td:nth-of-type(1){
-      font-size: 1.5em;
-      font-weight: bold;
-      color: #642B73
+      font-size: 1em
     }
-    th{
-      display: none;
+    .content{
+
     }
   }
