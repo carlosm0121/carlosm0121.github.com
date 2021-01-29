@@ -13,3 +13,19 @@ tdef.forEach(function(td){
     console.log(this);
   })
 })
+
+
+let links document.querySelectorAll(".close");
+
+links.forEventListener("click",function(ev){
+    // maneras de inhibir el comportamiento por defecto de un objeto
+    // ev.preventDefault();
+    // return false;
+  })
+})
+
+let icons = document.querySelectorAll("i");
+
+icons.forEach(function(icon){
+  icon.classList.remove("fas fa-star");
+})
