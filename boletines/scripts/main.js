@@ -1,4 +1,4 @@
-console.log("hola mundo")
+console.log("hola mun")
 
 //DOM
 //queryselector es solo para el primero--queryselectorAll es para todos los elementos
