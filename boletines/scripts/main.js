@@ -22,14 +22,17 @@ links.forEach(function(link){
     // manera de inhibir el comportamiento por defecto de un objeto
     ev.preventDefault();
 
-    let content = document.querySelectorAll(".content");
-    content.classList.remove(animate__animated);
-    content.classList.remove(animate__fadeInDown);
+    let content = document.querySelector(".content");
+    content.classList.remove("animate__animated");
+    content.classList.remove("animate__fadeInDown");
 
-    content.classList.add(animate__fadeOutUp);
-    content.classlist.add(animate__animated);
+    content.classList.add("animate__fadeOutUp");
+    content.classlist.add("animate__animated");
 
-    location.href = "/";
+    setTimeout(function(){
+      location.href = "/";
+
+    },1000);
 
     return false;
   })
