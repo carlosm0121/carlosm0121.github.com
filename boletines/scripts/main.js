@@ -18,7 +18,7 @@ tdef.forEach(function(td){
 let links = document.querySelectorAll(".close");
 
 links.forEach(function(link){
-  link.forEventListener("click",function(ev){
+  link.addEventListener("click",function(ev){
     // manera de inhibir el comportamiento por defecto de un objeto
     ev.preventDefault();
 
