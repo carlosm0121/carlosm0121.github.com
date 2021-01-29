@@ -17,16 +17,26 @@ tdef.forEach(function(td){
 
 let links = document.querySelectorAll(".close");
 
-links.forEach(function(){
-links.forEventListener("click",function(ev){
+links.forEach(function(link){
+  link.forEventListener("click",function(ev){
     // maneras de inhibir el comportamiento por defecto de un objeto
     // ev.preventDefault();
     // return false;
+
+    let content = document.querySelectorAll(".content");
+      content.classList.remove(animate__animated);
+      content.classList.remove(animate__fadeInDown);
+
+      content.classList.add(animate__fadeOutUp);
+      content.classlist.add(animate__animated);
+    })
   })
 })
 
-let icons = document.querySelectorAll("i");
-
-icons.forEach(function(icon){
-  icon.classList.remove("fas");
-})
+// ---icon remover
+// let icons = document.querySelectorAll("i");
+//
+// icons.forEach(function(icon){
+//   icon.classList.remove("fas");
+//   icon.classList.remove("fa-star");
+// })
