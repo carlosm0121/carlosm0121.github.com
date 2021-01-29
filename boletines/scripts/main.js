@@ -1,5 +1,6 @@
 console.log("hola mundo")
 
 //DOM
-let container = document.querySelector(".container");
-console.log(container)
+//queryselector es solo para el primero--queryselectorAll es para todos los elementos
+let links = document.querySelectorAll("a");
+console.log(links)
