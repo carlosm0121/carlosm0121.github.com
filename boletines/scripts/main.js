@@ -23,16 +23,15 @@ links.forEach(function(link){
     ev.preventDefault();
 
     let content = document.querySelectorAll(".content");
-      content.classList.remove(animate__animated);
-      content.classList.remove(animate__fadeInDown);
+    content.classList.remove(animate__animated);
+    content.classList.remove(animate__fadeInDown);
 
-      content.classList.add(animate__fadeOutUp);
-      content.classlist.add(animate__animated);
+    content.classList.add(animate__fadeOutUp);
+    content.classlist.add(animate__animated);
 
-      location.href = "/";
+    location.href = "/";
 
-      return false;
-    })
+    return false;
   })
 })
 
