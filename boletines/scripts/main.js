@@ -6,10 +6,10 @@
 //   console.log(links);
 // })
 
-let td =  document.querySelectorAll("a");
+let tdef =  document.querySelectorAll("a");
 
-td.forEach(function(td){
+tdef.forEach(function(td){
   td.addEventListener('click', function(){
-    console.log("click");
+    console.log(this);
   })
 });
