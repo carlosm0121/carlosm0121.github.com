@@ -26,10 +26,10 @@ links.forEach(function(link){
     content.classList.remove("animate__animated");
     content.classList.remove("animate__fadeInDown");
       console.log("removed");
+      content.classlist.add("animate__animated");
+      console.log("add2");
     content.classList.add("animate__fadeOutUp");
     console.log("add1");
-    content.classlist.add("animate__animated");
-    console.log("add2");
 
     setTimeout(function(){
       location.href = "/";
