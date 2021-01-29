@@ -19,9 +19,8 @@ let links = document.querySelectorAll(".close");
 
 links.forEach(function(link){
   link.forEventListener("click",function(ev){
-    // maneras de inhibir el comportamiento por defecto de un objeto
-    // ev.preventDefault();
-    // return false;
+    // manera de inhibir el comportamiento por defecto de un objeto
+    ev.preventDefault();
 
     let content = document.querySelectorAll(".content");
       content.classList.remove(animate__animated);
@@ -29,6 +28,10 @@ links.forEach(function(link){
 
       content.classList.add(animate__fadeOutUp);
       content.classlist.add(animate__animated);
+
+      location.href = "/";
+
+      return false;
     })
   })
 })
