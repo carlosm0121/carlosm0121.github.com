@@ -28,5 +28,5 @@ links.forEventListener("click",function(ev){
 let icons = document.querySelectorAll("i");
 
 icons.forEach(function(icon){
-  icon.classList.remove("fas fa-star");
+  icon.classList.remove("fas");
 })
