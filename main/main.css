@@ -16,34 +16,8 @@
   height: 13vh;
 }
 
-.button1{
-  position: absolute;
-  top: 3em;
-  left: 10em;
-}
-
-.button2{
-  position: absolute;
-  top: 3em;
-  left: 25em;
-}
-
-.button3{
-  position: absolute;
-  top: 3em;
-  left: 40em;
-}
-
-.button4{
-  position: absolute;
-  top: 3em;
-  left: 60em;
-}
-
-.button5{
-  position: absolute;
-  top: 3em;
-  left: 75em;
+.button{
+  position: relative;
 }
 
 .mainBody{
