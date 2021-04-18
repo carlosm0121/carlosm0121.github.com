@@ -41,6 +41,16 @@
     left: 1em;
 }
 
+.iniciativa{
+  max-width: 960px;
+  width: 15.5em;
+  height: 35vh;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+  display: block;
+}
+
 .iniciativa1{
   max-width: 960px;
   width: 15.5em;
