@@ -1,0 +1,111 @@
+.container{
+  background-color: green;
+  height: 100vh;
+  width: 100%;
+}
+
+.top{
+  background-color: #126e82;
+  max-width: 5000px;
+  width: 100%;
+  height: 13vh;
+  display: block;
+}
+
+.gif{
+  height: 13vh;
+}
+
+.button1{
+  position: absolute;
+  top: 3em;
+  left: 10em;
+}
+
+.button2{
+  position: absolute;
+  top: 3em;
+  left: 25em;
+}
+
+.button3{
+  position: absolute;
+  top: 3em;
+  left: 40em;
+}
+
+.button4{
+  position: absolute;
+  top: 3em;
+  left: 60em;
+}
+
+.button5{
+  position: absolute;
+  top: 3em;
+  left: 75em;
+}
+
+.mainBody{
+  background-color: #fff;
+  height: 70em;
+  width: 100%;
+  display: block;
+}
+.mainleft{
+  background-color: #51c4d3;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo{
+  position: absolute;
+    top: 3em;
+    left: 1em;
+}
+
+.iniciativa1{
+  max-width: 960px;
+  width: 15.5em;
+  height: 35vh;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: absolute;
+  padding: 1em;
+  top: 15em;
+  left: 1em;
+}
+
+.iniciativa2{
+  max-width: 960px;
+  width: 15.5em;
+  height: 35vh;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: absolute;
+  padding: 1em;
+  top: 35em;
+  left: 1em;
+}
+
+.iniciativa3{
+  max-width: 960px;
+  width: 15.5em;
+  height: 35vh;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: absolute;
+  padding: 1em;
+  top: 55em;
+  left: 1em;
+}
+
+.footer{
+  background-color: #d8e3e7;
+  height: 10em;
+  width: 100%;
+  display: block;
+}
