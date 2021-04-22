@@ -4,13 +4,14 @@ body {
 
 .sidebar {
   grid-area: sidebar;
-  width: 30vh;
+  width: 18vw;
 }
 
 .content {
   grid-area: content;
   position: relative;
   background-color: #fff;
+  width: 65vw;
 }
 
 .header {
@@ -37,6 +38,14 @@ body {
     box-sizing: border-box;
   }
 
+  .wrapper2 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 2%;
+  background-color: #51c4d3;
+  color: #444;
+}
+
 #sidebar{
   background-color: #51c4d3;
 
@@ -46,7 +55,16 @@ body {
   color: #fff;
   border-radius: 5px;
   padding: 50px;
+  padding-top: 5px;
   font-size: 150%;
+}
+
+.box2 {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 80%;
 }
 
 .header,
